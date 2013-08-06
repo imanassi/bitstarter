@@ -116,6 +116,11 @@ p {
 .footer a {
 	color: #ccccff;
 }
+/* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */
+div.addthis_toolbox {
+	width: 180px;
+	margin: 0 auto;
+}
 </style>
 </head>
 <body>
@@ -192,12 +197,22 @@ p {
 					<button class="btn btn-success btn-large">Preorder</button>
 				</div>
 				<div class="span8 offset2 social">
-					<button class="btn btn-twitter">
-						<i class="icon-twitter"></i> | Twitter
-					</button>
-					<button class="btn btn-facebook">
-						<i class="icon-facebook"></i> | Facebook
-					</button>
+					<!-- AddThis Button BEGIN -->
+					<div
+						class="addthis_toolbox addthis_default_style addthis_32x32_style">
+						<a class="addthis_button_preferred_1"></a> <a
+							class="addthis_button_preferred_2"></a> <a
+							class="addthis_button_compact"></a> <a
+							class="addthis_counter addthis_bubble_style"></a>
+					</div>
+					<script type="text/javascript">
+						var addthis_config = {
+							"data_track_addressbar" : true
+						};
+					</script>
+					<script type="text/javascript"
+						src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-520171c065a68586"></script>
+					<!-- AddThis Button END -->
 				</div>
 			</div>
 		</div>
@@ -211,21 +226,25 @@ p {
 				<p>The world needs good ideas more than ever. With so many
 					problems waiting at the door and still more queuing up each day we
 					would need a miracle to survive. So lets try and do it! Let's make
-					the world a better place!</p><p> How? Where to start from?<p> Let's find the best ideas, let's make
-					them even better, let's focus together on them a minute per day. We
-					will join our thoughts, we will be a true community once again and
-					hopefully we will make the world a better place.</p>
+					the world a better place!</p>
+				<p>How? Where to start from?
+				<p>Let's find the best ideas, let's make them even better, let's
+					focus together on them a minute per day. We will join our thoughts,
+					we will be a true community once again and hopefully we will make
+					the world a better place.</p>
 			</div>
 		</div>
 
 		<div class="row-fluid section2">
 			<div class="span5 offset1 copy copy-right">
-				<p><p> “Everyone
-					thinks of changing the world, but no one thinks of changing
-					himself.”  ― Leo Tolstoy </p> <p>“The world as we have created it is a
-					process of our thinking. It cannot be changed without changing our
-					thinking.”  ― Albert Einstein</p>
-					</p>
+				<p>
+				<p>“Everyone thinks of changing the world, but no one thinks of
+					changing himself.”  ― Leo Tolstoy</p>
+				<p>“The world as we have created it is a process of our
+					thinking. It cannot be changed without changing our thinking.” 
+					― Albert Einstein</p>
+				</p>
+
 			</div>
 			<div class="span5 asset">
 				<img class="img-polaroid" src="480_300_gather.jpg">
@@ -239,19 +258,24 @@ p {
 					<div class="accordion-group">
 						<div class="accordion-heading">
 							<a class="accordion-toggle" data-toggle="collapse"
-								data-parent="#accordion2" href="#collapseOne"> How is the idea going to evolve? </a>
+								data-parent="#accordion2" href="#collapseOne"> How is the
+								idea going to evolve? </a>
 						</div>
 						<div id="collapseOne" class="accordion-body collapse">
-							<div class="accordion-inner">The ideas would be connected in hierarchical order.</div>
+							<div class="accordion-inner">The ideas would be connected
+								in hierarchical order.</div>
 						</div>
 					</div>
 					<div class="accordion-group">
 						<div class="accordion-heading">
 							<a class="accordion-toggle" data-toggle="collapse"
-								data-parent="#accordion2" href="#collapseTwo"> How are the ideas going to be powered? </a>
+								data-parent="#accordion2" href="#collapseTwo"> How are the
+								ideas going to be powered? </a>
 						</div>
 						<div id="collapseTwo" class="accordion-body collapse">
-							<div class="accordion-inner">There would be a community event that everyone can subscribe to it and focus on the idea for a certain time.</div>
+							<div class="accordion-inner">There would be a community
+								event that everyone can subscribe to it and focus on the idea
+								for a certain time.</div>
 						</div>
 					</div>
 				</div>
